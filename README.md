@@ -1,5 +1,5 @@
 ### Вопрос 1
-1. is a
+1. is a (являеся)
 ```
 class Parent {
 public:
@@ -29,7 +29,7 @@ int main() {
 ```
 x в Kid - public, y в Kid - protected, z недоступен для Kid
 
-2. is implemented with
+2. is implemented with (реализовано с помощью) 
 ```
 class Parent {
 public:
