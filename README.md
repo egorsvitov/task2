@@ -27,4 +27,5 @@ int main() {
 }
 
 ```
+x в Kid - public, y в Kid - protected, z недоступен для Kid
 2. is implemented with
