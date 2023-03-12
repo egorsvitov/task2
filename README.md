@@ -28,4 +28,32 @@ int main() {
 
 ```
 x в Kid - public, y в Kid - protected, z недоступен для Kid
+
 2. is implemented with
+```
+class Parent {
+public:
+int x;
+protected:
+int y;
+private:
+int z;
+};
+
+class Kid: private Parent { //now private 
+public:
+int func() {
+    return x;
+    return y;
+    return z; // is inaccessible
+}
+};
+
+int main() {
+    Kid kid;
+    kid.x; // now is inaccessible
+    kid.y; // is inaccessible
+    kid.z; // is inaccessible
+} 
+```
+x в Kid - private, y в Kid - private, z недоступен для Kid
