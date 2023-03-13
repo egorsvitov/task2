@@ -52,6 +52,9 @@ public:
             this->c = c;
         } else {
             std::cout << "A triangle can't have these sides" << std::endl;
+            this->a = 0;
+            this->b = 0;
+            this->c = 0;
         }
     }
 
