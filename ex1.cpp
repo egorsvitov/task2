@@ -122,4 +122,8 @@ int main() {
     Rectangle rectangle(3, 5);
     std::cout << rectangle.perimeter() << std::endl;
     std::cout << rectangle.square() << std::endl;
+
+    Square square(5);
+    std::cout << square.perimeter() << std::endl;
+    std::cout << square.square() << std::endl;
 }	
